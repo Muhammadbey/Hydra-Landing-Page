@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container_wrapper">
+      <!-- --------------header-------------- -->
+      <header>
+        <div class="logo">
+          <svg
+            width="102"
+            height="103"
+            viewBox="0 0 102 103"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100.772 41.2578C102.108 48.9756 93.9123 46.9199 93.9123 46.9199C90.4822 37.2546 84.9941 38.1563 84.9941 38.1563C89.2907 41.2939 89.6157 43.9626 89.6157 43.9626C78.17 35.8481 62.6082 42.3758 56.6868 45.4413C53.365 40.7529 46.6493 30.2581 49.0323 25.4976C52.1735 19.2585 58.5643 22.8289 58.5643 22.8289C71.4904 22.6125 70.7682 17.9962 70.7682 17.9962C67.3381 20.665 57.2284 17.9962 57.2284 17.9962C66.0022 17.9962 69.7212 14.4259 69.7212 14.4259C63.1859 16.0488 55.8925 9.08833 55.8925 9.08833C53.2206 -4.58009 40.8723 1.22629 40.8723 1.22629C48.599 -0.108098 46.541 8.07853 46.541 8.07853C36.8645 11.5046 37.7672 16.9864 37.7672 16.9864C40.9084 12.6948 43.5803 12.3702 43.5803 12.3702C34.7343 24.8124 43.2553 42.1233 45.7828 46.6314C41.1612 49.8411 30.3293 56.9098 25.455 54.4574C19.2086 51.3198 22.7831 44.9364 22.7831 44.9364C22.6387 32.0253 18.0171 32.7466 18.0171 32.7466C20.6889 36.1727 18.0171 46.2708 18.0171 46.2708C18.0171 37.5071 14.4426 33.7925 14.4426 33.7925C16.0674 40.3201 9.09886 47.6051 9.09886 47.6051C-4.58539 50.2739 1.2277 62.6079 1.2277 62.6079C-0.108225 54.8901 8.08788 56.9458 8.08788 56.9458C11.518 66.6111 17.0061 65.7095 17.0061 65.7095C12.7095 62.5719 12.3845 59.9031 12.3845 59.9031C24.4801 68.4864 41.1973 60.6965 46.2521 57.9556C49.6461 62.8243 55.9647 72.8502 53.6178 77.5025C50.4766 83.7417 44.0858 80.1713 44.0858 80.1713C31.1597 80.3156 31.8819 84.9318 31.8819 84.9318C35.312 82.263 45.4217 84.9318 45.4217 84.9318C36.6479 84.9318 32.9289 88.5022 32.9289 88.5022C39.4642 86.8793 46.7576 93.8397 46.7576 93.8397C49.4295 107.508 61.7778 101.702 61.7778 101.702C54.0511 103.036 56.1091 94.8495 56.1091 94.8495C65.7856 91.4234 64.8829 85.9416 64.8829 85.9416C61.7417 90.2333 59.0698 90.5579 59.0698 90.5579C67.7353 78.4042 59.7558 61.5621 57.0479 56.6212C61.9583 53.1951 71.8875 47.0642 76.473 49.3723C82.7194 52.5099 79.1449 58.8933 79.1449 58.8933C79.2893 71.8044 83.9109 71.0831 83.9109 71.0831C81.239 67.657 83.9109 57.5589 83.9109 57.5589C83.9109 66.3226 87.4854 70.0372 87.4854 70.0372C85.8606 63.5095 92.8291 56.2245 92.8291 56.2245C106.586 53.5918 100.772 41.2578 100.772 41.2578Z"
+              fill="url(#paint0_linear_1_6)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_6"
+                x1="50.9966"
+                y1="0.00115967"
+                x2="50.9966"
+                y2="102.927"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#C0B7E8" />
+                <stop offset="1" stop-color="#8176AF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <p>HYDRA</p>
+        </div>
+        <ul class="lists">
+          <li>about</li>
+          <li>services</li>
+          <li>technologies</li>
+          <li>how to</li>
+        </ul>
+        <div class="header-buttons">
+          <button class="contact-button">contact us</button>
+          <button class="join-button">join hydra</button>
+        </div>
+        <div id="hamburger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </div>
+      </header>
+      <!-- --------------main-banner ---------------->
+      <div class="main-banner-and-text">
+        <div class="main-text">
+          <div class="extra-img">
+            <img src="./assets/Mask group.png" alt="" />
+          </div>
+          <h1><span>dive </span>into the depths</h1>
+          <h1>of <span>virtual reality</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque hic
+            modi facilis tenetur repellat optio, beatae expedita obcaecati
+            nostrum quisquam.
+          </p>
+          <div class="button-wrapper">
+            <button>build your world</button>
+            <svg
+              width="46"
+              height="38"
+              viewBox="0 0 46 38"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333"
+                stroke="#C0B7E8"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="main-banner">
+          <img src="./assets/Mask group.png" alt="" />
+        </div>
+      </div>
+      <div class="icon_wrapper">
+        <div class="location">
+          <svg
+            width="42"
+            height="63"
+            viewBox="0 0 42 63"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M21 0.833344C32.2758 0.833344 41.4166 9.9742 41.4166 21.25C41.4166 24.6593 40.5834 27.8717 39.1039 30.6983L21 62.0833L3.31538 31.4595C1.57498 28.4542 0.583313 24.9693 0.583313 21.25C0.583313 9.9742 9.72416 0.833344 21 0.833344ZM21 6.66668C12.9458 6.66668 6.41665 13.1959 6.41665 21.25C6.41665 23.566 6.95093 25.7882 7.96198 27.7943L8.45197 28.6893L21 50.4167L33.6366 28.5362C34.9071 26.3423 35.5833 23.8555 35.5833 21.25C35.5833 13.1959 29.0541 6.66668 21 6.66668ZM21 12.5C25.8325 12.5 29.75 16.4175 29.75 21.25C29.75 26.0825 25.8325 30 21 30C16.1675 30 12.25 26.0825 12.25 21.25C12.25 16.4175 16.1675 12.5 21 12.5ZM21 18.3333C19.3891 18.3333 18.0833 19.6392 18.0833 21.25C18.0833 22.8608 19.3891 24.1667 21 24.1667C22.6108 24.1667 23.9166 22.8608 23.9166 21.25C23.9166 19.6392 22.6108 18.3333 21 18.3333Z"
+              fill="#C0B7E8"
+            />
+          </svg>
+          <div class="location_text">
+            <p>Pay Us a Visit</p>
+            <span>Union St, Seattle, WA 98101, United States </span>
+          </div>
+        </div>
+        <div class="icon_call">
+          <svg
+            width="51"
+            height="51"
+            viewBox="0 0 51 51"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.6458 11.9792C33.458 12.3327 35.2569 13.1319 36.5625 14.4375C37.8681 15.7431 38.6673 17.542 39.0208 19.3542M32.875 3.375C36.64 3.79326 40.028 5.61471 42.7083 8.29167C45.3887 10.9686 47.202 14.3605 47.625 18.125M47.6237 36.5051V43.1666C47.634 45.7131 45.3443 47.8395 42.7734 47.6077C20.5835 47.625 3.37515 30.2568 3.39252 8.21591C3.16097 5.65866 5.27686 3.37761 7.82008 3.37522H14.4948C15.5746 3.36461 16.6214 3.74621 17.4401 4.4489C19.7676 6.44667 21.2648 13.2274 20.6887 15.923C20.239 18.0276 18.1175 19.4999 16.6752 20.9394C19.8425 26.4985 24.4545 31.1014 30.0247 34.2624C31.467 32.823 32.9423 30.7057 35.051 30.2568C37.7561 29.6811 44.5805 31.1803 46.5702 33.5241C47.2758 34.3552 47.6507 35.4161 47.6237 36.5051Z"
+              stroke="#C0B7E8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <div class="call_text">
+            <p>Give Us a Call</p>
+            <span>(110) 1111-1010</span>
+          </div>
+        </div>
+        <div class="icon_message">
+          <svg
+            width="55"
+            height="45"
+            viewBox="0 0 55 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.91825 4.33491C4.40836 3.8448 5.08545 3.54166 5.83333 3.54166H49.1667C49.9146 3.54166 50.5916 3.8448 51.0817 4.33491M3.91825 4.33491C3.42814 4.82502 3.125 5.50211 3.125 6.24999V38.75C3.125 40.2458 4.33756 41.4583 5.83333 41.4583H49.1667C50.6624 41.4583 51.875 40.2458 51.875 38.75V6.24999C51.875 5.5021 51.5719 4.82502 51.0817 4.33491M3.91825 4.33491L23.6698 24.0864C25.7852 26.2017 29.2148 26.2017 31.3302 24.0864L51.0817 4.33491"
+              stroke="#C0B7E8"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <div class="message_text">
+            <p>Send Us a Message</p>
+            <span>Contact@HydraVTech.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----main body----->
+    <div class="main_body">
+      <div class="card">
+        <div class="right_card">
+          <div class="right_text">
+            <h1 class="header_one">INTRODUCTION</h1>
+
+            <div class="right_vector_image">
+              <h2 class="header_two">TO HYDRA VR</h2>
+              <div class="svgone">
+                <svg
+                  width="158"
+                  height="4"
+                  viewBox="0 0 158 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M157.5 2H0" stroke="#C0B7E8" stroke-width="3" />
+                </svg>
+              </div>
+              <svg
+                width="46"
+                height="38"
+                viewBox="0 0 46 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M43.8333 19L2.16667 19M43.8333 19L27.1667 35.6666M43.8333 19L27.1667 2.33331"
+                  stroke="#C0B7E8"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="right_image">
+            <img
+              src="./assets/pexels-shvets-production-7562014 1 (1).png"
+              alt=""
+            />
+          </div>
+          <div class="right_text_footer">
+            <h1 class="header_one">WHY BUILD</h1>
+            <div class="text_footer">
+              <h2 class="header_two">WITH HYDRA?</h2>
+              <div class="svgone">
+                <svg
+                  width="158"
+                  height="4"
+                  viewBox="0 0 158 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M157.5 2H0" stroke="#C0B7E8" stroke-width="3" />
+                </svg>
+
+                <svg
+                  width="46"
+                  height="38"
+                  viewBox="0 0 46 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M43.8333 19L2.16667 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33337"
+                    stroke="#C0B7E8"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left_card">
+          <div class="left_text">
+            <p class="word">
+              Vitae sapien pellentesque habitant morbi tristique senectus et
+              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
+              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
+              est placerat in. Lectus magna fringilla urna porttitor rhoncus
+              vitae.
+            </p>
+            <h1 class="header_one">ABOUT</h1>
+            <h2 class="header_two">HYDRA VR</h2>
+            <p>
+              Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
+              mattis rhoncus urna neque viverra justo. Vivamus at augue eget
+              arcu dictum. Ultrices gravida dictum fusce ut placerat orci.
+              Aenean et tortor at risus viverra adipiscing at in. Mattis aliquam
+              faucibus purus in massa. Est placerat in egestas erat imperdiet
+              sed. Consequat semper viverra nam libero justo laoreet sit amet.
+              Aliquam etiam erat velit scelerisque in dictum non consectetur a.
+              Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor
+              orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit
+              adipiscing bibendum. Leo a diam sollicitudi n tempor.
+            </p>
+            <button>LET’S GET IN TOUCH</button>
+            <p>
+              Vitae sapien pellentesque habitant morbi tristique senectus et
+              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
+              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
+              est placerat in. Lectus magna fringilla urna porttitor rhoncus
+              vitae.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_wrapper">
+        <div class="card_wrapper">
+          <div class="card_image">
+            <img src="./assets/pexels-shvets-production-7561969 1.png" alt="" />
+          </div>
+          <h1>SIMULATION</h1>
+          <div class="card_content">
+            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+            porttitor rhoncus libero justo laoreet sit amet vitae.
+            <button class="buttom_wrapper">TRY IT NOW</button>
+          </div>
+        </div>
+        <div class="card_wrapper">
+          <div class="card_image">
+            <img src="./assets/pexels-mikhail-nilov-7887140 1.png" alt="" />
+          </div>
+          <h1>EDUCATION</h1>
+          <div class="card_content">
+            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+            porttitor rhoncus libero justo laoreet sit amet vitae.
+            <button class="buttom_wrapper">TRY IT NOW</button>
+          </div>
+        </div>
+        <div class="card_wrapper">
+          <div class="card_image">
+            <img
+              src="./assets/pexels-rodnae-productions-8098263 1.png"
+              alt=""
+            />
+          </div>
+          <h1>SELF-CARE</h1>
+          <div class="card_content">
+            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+            porttitor rhoncus libero justo laoreet sit amet vitae.
+            <button class="buttom_wrapper">TRY IT NOW</button>
+          </div>
+        </div>
+        <div class="card_wrapper">
+          <div class="card_image">
+            <img src="./assets/pexels-mali-maeder-756439 1.png" alt="" />
+          </div>
+          <h1>OUTDOOR</h1>
+          <div class="card_content">
+            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+            porttitor rhoncus libero justo laoreet sit amet vitae.
+            <button class="buttom_wrapper">TRY IT NOW</button>
+          </div>
+        </div>
+        <!-- TECHNOLOGIES & HARDWARE -->
+        <div class="tech-section">
+          <div class="tech-section-text">
+            <img
+              src="./assets/pexels-rodnae-productions-8097332 1.png"
+              alt=""
+            />
+            <div class="tech-text">
+              <h1>technologies & hardware</h1>
+              <p>used by hydra vr.</p>
+            </div>
+
+            <!-- <div class="arrow">
+                  <img src="./shape.png" alt="">
+              </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- logoes -->
+      <div class="end">
+        <div class="logoes">
+          <img src="./assets/Hydra-Tech1 1.png" alt="" />
+          <img src="./assets/Hydra-Tech3 1.png" alt="" />
+          <img src="./assets/Hydra-Tech2 1.png" alt="" />
+          <img src="./assets/Hydra-Tech4 1.png" alt="" />
+        </div>
+        <div class="end_card">
+          <div class="end_right_card">
+            <h1 class="header_one">HOW WE BUILD</h1>
+            <div class="end_right_image">
+              <span class="header_two">WITH HYDRA VR?</span>
+              <div class="svgone">
+                <svg
+                  width="158"
+                  height="4"
+                  viewBox="0 0 158 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M157.5 2H0" stroke="#C0B7E8" stroke-width="3" />
+                </svg>
+                <svg
+                  width="46"
+                  height="38"
+                  viewBox="0 0 46 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M43.8333 19L2.16667 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33337"
+                    stroke="#C0B7E8"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="end_left_card">
+            <p>
+              Vitae sapien pellentesque habitant morbi tristique senectus et
+              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
+              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
+              est placerat in. Lectus magna fringilla urna porttitor rhoncus
+              vitae.
+            </p>
+          </div>
+        </div>
+        <!-- number------- card  -->
+        <div class="number-card">
+          <div class="number_card_text">
+            <div class="counter">
+              <img src="./assets/Ellipse 8.png" alt="" />
+              <div class="number">
+                <h1>01</h1>
+              </div>
+            </div>
+            <div class="number_text">
+              <img src="./assets/arrow-small-right.svg" alt="" />
+              <h1>3D Conception <br />& Design</h1>
+            </div>
+          </div>
+          <div class="number_card_text">
+            <div class="counter">
+              <img src="./assets/Ellipse 8.png" alt="" />
+              <div class="number">
+                <h1>02</h1>
+              </div>
+            </div>
+            <div class="number_text">
+              <img src="./assets/arrow-small-right.svg" alt="" />
+              <h1>
+                Interaction <br />
+                Design
+              </h1>
+            </div>
+          </div>
+          <div class="number_card_text">
+            <div class="counter">
+              <img src="./assets/Ellipse 8.png" alt="" />
+              <div class="number">
+                <h1>03</h1>
+              </div>
+            </div>
+            <div class="number_text">
+              <img src="./assets/arrow-small-right.svg" alt="" />
+              <h1>
+                VR World <br />
+                User Testing
+              </h1>
+            </div>
+          </div>
+          <div class="number_card_text">
+            <div class="counter">
+              <img src="./assets/Ellipse 8.png" alt="" />
+              <div class="number">
+                <h1>04</h1>
+              </div>
+            </div>
+            <div class="number_text">
+              <img src="./assets/arrow-small-right.svg" alt="" />
+              <h1>
+                Hydra <br />
+                VR Deploy
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- option_section -->
+      <div class="option_section_card">
+        <div class="option_section_start">
+          <div class="option_section">
+            <div class="option_text">
+              <h1>JOIN HYDRA</h1>
+              <p>Let’s Build Your VR Experience</p>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="first_input">
+              <div class="left_input input_style">
+                <input type="name" placeholder="First Name" />
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="right_input input_style">
+                <input type="lastname" placeholder="Last Name" />
+                <input type="tel" placeholder="Phone Number" />
+              </div>
+            </div>
+            <div class="end_input">
+              <input type="text" placeholder="Subject" class="subject_input" />
+            </div>
+            <div class="end_input_two">
+              <input type="text" placeholder="Tell Us Something..." />
+            </div>
+            <div class="input_button_wrapper">
+              <button class="input_button">SEND TO HYDRA</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- -->
+      <!--FOOTER-SECTION -->
+      <!-- -->
+      <!-- -->
+
+      <footer class="end_footer">
+        <div class="footer-section">
+          <div class="footer-image">
+            <img src="./assets/Vector.svg" alt="" />
+          </div>
+          <div class="contact_menu">
+            <ul class="contact_us">
+              <li>about</li>
+              <li>services</li>
+              <li>technologies</li>
+              <li>how to</li>
+              <li>join hydra</li>
+            </ul>
+          </div>
+          <div class="faq_menu">
+            <ul class="faq_us">
+              <li>F.A.Q</li>
+              <li>SITEMAP</li>
+              <li>CONDITIONS</li>
+              <li>LICENSES</li>
+            </ul>
+          </div>
+          <div class="socialize_with_us">
+            <span>SOCIALIZE WITH HYDRA</span>
+            <div class="socialize_logo">
+              <img src="./assets/facebook.svg" alt="" />
+              <img src="./assets/twitter.svg" alt="" />
+              <img src="./assets/linkedin.svg" alt="" />
+              <img src="./assets/youtube.svg" alt="" />
+              <img src="./assets/instagram.svg" alt="" />
+              <img src="./assets/pinterest.svg" alt="" />
+            </div>
+            <button>BUILD YOUR WORLD</button>
+          </div>
+        </div>
+        <div class="footer_end_menu">
+          <p>
+            2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS
+            RESERVED
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
